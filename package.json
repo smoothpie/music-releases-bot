@@ -1,0 +1,24 @@
+{
+  "name": "record-dates-bot",
+  "version": "1.0.0",
+  "description": "so when does the new Limp Bizkit record come out?",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "smoothpie",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "node-telegram-bot-api": "^0.30.0",
+    "youtube-search": "^1.0.10"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1"
+  }
+}
